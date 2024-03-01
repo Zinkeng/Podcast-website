@@ -13,7 +13,7 @@ function HeroSection() {
         {/* <video src='./videos/Mas_hair.mp4'
         autoPlay loop muted /> */}
         
-       
+       <div className='first-part'>
        <h1 className="exclude-overlay">Get contents, blogs, vlogs and audio 
         Podcasts with us </h1>
         <div className="exclude-overlay">
@@ -26,8 +26,9 @@ function HeroSection() {
         </div>
         <div className='overlay'>
         </div>
+        </div>
 
-        <div className='section-1'>
+        <div className='second-part'>
           <div className='left'>
             <h2> About Our Host</h2>
 
