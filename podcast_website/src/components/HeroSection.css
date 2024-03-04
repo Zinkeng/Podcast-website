@@ -61,5 +61,36 @@ h1{
 
 .left{
     font-size: 25px;
+    color:#FF5733;
+    float: left;
+}
+
+.second-part{
+    background-color: #000;
+    
+}
+
+.first-message{
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.right{
+    background-image: url(./images/A6.jpg);
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    object-fit: contain;
+
+}
+
+.h2{
+    font-size: 25px;
+    color:#FF5733;
+    float: left;
 }
 

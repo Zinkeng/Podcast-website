@@ -31,7 +31,21 @@ function HeroSection() {
         <div className='second-part'>
           <div className='left'>
             <h2> About Our Host</h2>
+            <p className='first-message'>We bring you lots of inspirational videos from
+              renowned persons through out the world, 
+              insight life, daily life, motivational stories and a
+              lot more. Stay with us as you begin this journey 
+              of unending inspiration.</p>
 
+          </div>
+          <div className='left'>
+          <h2> What we offer</h2>
+          <p className='first-message'>We bring you lots of inspirational videos from
+              renowned persons through out the world, 
+              insight life, daily life, motivational stories and a
+              lot more. Stay with us as you begin this journey 
+              of unending inspiration.</p>
+           
           </div>
 
         </div>
