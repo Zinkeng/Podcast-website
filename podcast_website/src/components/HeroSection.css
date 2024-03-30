@@ -41,7 +41,7 @@
 }
 
 .social-icon{
-    color: #FF5733;
+    color: #00FF57;
     padding-left: 10px;
     padding-right: 10px;
     margin-left: 10px;
@@ -61,7 +61,7 @@ h1{
 
 .left{
     font-size: 25px;
-    color:#FF5733;
+    color:#00FF57;
     float: left;
 }
 
@@ -69,6 +69,19 @@ h1{
     background-color: #000;
     
 }
+
+.first-message-1{
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    position: relative;
+    z-index: 1;
+    margin: 0;
+   
+}
+
 
 .first-message{
     color: #fff;
@@ -78,7 +91,7 @@ h1{
     float: left;
 }
 
-.right{
+/* .right{
     background-image: url(./images/A6.jpg);
     height: 75vh;
     width: 100%;
@@ -86,11 +99,16 @@ h1{
     flex-direction: column;
     object-fit: contain;
 
-}
+} */
 
 .h2{
     font-size: 25px;
-    color:#FF5733;
+    color:#00FF57;
     float: left;
+}
+
+.right{
+    background-image: url(./images/Anne.jpg);
+    float: right;
 }
 

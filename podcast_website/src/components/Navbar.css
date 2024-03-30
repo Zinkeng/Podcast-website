@@ -59,7 +59,7 @@
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid #ff5733;
+  border-bottom: 4px solid #00FF57;
   transition: all 0.2s ease-out;
   padding-bottom: 0px;
 }

@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faXTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 
+
 function HeroSection() {
   return (
     <div className='hero-container'>
@@ -14,8 +15,9 @@ function HeroSection() {
         autoPlay loop muted /> */}
         
        <div className='first-part'>
-       <h1 className="exclude-overlay">Get contents, blogs, vlogs and audio 
-        Podcasts with us </h1>
+       <h1 className="exclude-overlay">AFRO DIASPO HUSTLERS </h1>
+       <p className="first-message-1">Showcasing and celebrating the remarkable stories and achievements 
+              of the African Diaspora</p>
         <div className="exclude-overlay">
           <div className='home-icon'>
           <FontAwesomeIcon icon={faFacebook}  className='social-icon' />
@@ -31,20 +33,38 @@ function HeroSection() {
         <div className='second-part'>
           <div className='left'>
             <h2> About Our Host</h2>
-            <p className='first-message'>We bring you lots of inspirational videos from
-              renowned persons through out the world, 
-              insight life, daily life, motivational stories and a
-              lot more. Stay with us as you begin this journey 
-              of unending inspiration.</p>
+            
+            <p className='first-message'>Kelvin Fuamenya, known by his brand name 
+            'The Kreativ Lad,' is a versatile content creator  whose talents 
+            span across various domains including motion graphics, writing, 
+            artist  management, and a profound love for literature. 
+            His body of work serves not only as a testament  to his skills 
+            but also as a guiding light for those seeking inspiration and 
+            direction in life's myriad  aspects...</p>
+            
 
           </div>
+
+          <div className='right'>
+          <img src="./images/Anne.jpg" alt="background-1-image" />
+
+
+          </div>
+
+
+
           <div className='left'>
           <h2> What we offer</h2>
-          <p className='first-message'>We bring you lots of inspirational videos from
-              renowned persons through out the world, 
-              insight life, daily life, motivational stories and a
-              lot more. Stay with us as you begin this journey 
-              of unending inspiration.</p>
+          <p className='first-message'>"The Afro Diaspo Hustlers initiative is 
+          dedicated to spotlighting the remarkable stories and  
+          achievements of African professionals, 
+          influential personalities, and entrepreneurs 
+          in the  diaspora. 
+          Our mission is to educate and inspire fellow Africans 
+          by showcasing the lives,  journeys, and visionary ideas 
+          of diasporans who are making significant contributions 
+          to various  industries, creating positive change, 
+          and driving profound impact globally.</p>
            
           </div>
 
