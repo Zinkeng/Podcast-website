@@ -63,6 +63,8 @@ h1{
     font-size: 25px;
     color:#00FF57;
     float: left;
+    width: 100%;
+    margin-top: 70px;
 }
 
 .second-part{
@@ -85,10 +87,13 @@ h1{
 
 .first-message{
     color: #fff;
-    font-size: 20px;
+    font-size: 32px;
     display: flex;
     flex-direction: column;
     float: left;
+    text-align: justify;
+    width: 100vh;
+    height: 100%;
 }
 
 /* .right{
@@ -108,7 +113,21 @@ h1{
 }
 
 .right{
-    background-image: url(./images/Anne.jpg);
+    /* background-image: url(./images/Anne.jpg); */
     float: right;
 }
 
+.image-1{
+   width: 90%;
+   float: right;
+}
+
+.image-2{
+    width: 50%;
+    float: left;
+    margin-top: 110px;
+ }
+
+.wrapper{
+    display: flex;
+}

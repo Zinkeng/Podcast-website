@@ -1,6 +1,8 @@
 import React from 'react';
 import '../App.css';
 import './HeroSection.css';
+import Anne from './images/Anne.jpg';
+import offer from './images/offer.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faXTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
@@ -31,6 +33,7 @@ function HeroSection() {
         </div>
 
         <div className='second-part'>
+          <div className='wrapper'>
           <div className='left'>
             <h2> About Our Host</h2>
             
@@ -46,12 +49,17 @@ function HeroSection() {
           </div>
 
           <div className='right'>
-          <img src="./images/Anne.jpg" alt="background-1-image" />
+          <img className='image-1' src={Anne} alt="what we offer"/>
+          {/* <img  className="image-1" src="./images/Anne.jpg" alt="background-1-image" /> */}
+          </div>
 
 
           </div>
 
 
+          <div className='wrapper'>
+
+          <img className='image-2' src={offer} alt="Our Host"/>
 
           <div className='left'>
           <h2> What we offer</h2>
@@ -66,6 +74,8 @@ function HeroSection() {
           to various  industries, creating positive change, 
           and driving profound impact globally.</p>
            
+          </div>
+         
           </div>
 
           <div className='left'>
