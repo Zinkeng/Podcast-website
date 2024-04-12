@@ -88,11 +88,26 @@ h1{
 .first-message{
     color: #fff;
     font-size: 32px;
-    display: flex;
-    flex-direction: column;
-    float: left;
+    /* display: flex; */
+    align-items: center;
+    /* flex-direction: column;
+    float: left; */
     text-align: justify;
+    justify-content: center;
     width: 100vh;
+    height: 100%;
+}
+
+.first-message-2{
+    color: #fff;
+    font-size: 32px;
+    /* display: flex; */
+    align-items: center;
+    /* flex-direction: column;
+    float: left; */
+    text-align: justify;
+    justify-content: center;
+    width: 100%;
     height: 100%;
 }
 
@@ -123,11 +138,18 @@ h1{
 }
 
 .image-2{
-    width: 50%;
-    float: left;
+    width: 95%;
+    /* float: left; */
     margin-top: 110px;
+    margin-left: 30px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    
  }
 
 .wrapper{
     display: flex;
 }
+
+

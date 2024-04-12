@@ -57,13 +57,13 @@ function HeroSection() {
           </div>
 
 
-          <div className='wrapper'>
+          <div className='wrapper-1'>
 
-          <img className='image-2' src={offer} alt="Our Host"/>
+          <img className='image-2' src={offer} alt="Video"/>
 
           <div className='left'>
           <h2> What we offer</h2>
-          <p className='first-message'>"The Afro Diaspo Hustlers initiative is 
+          <p className='first-message-2'>"The Afro Diaspo Hustlers initiative is 
           dedicated to spotlighting the remarkable stories and  
           achievements of African professionals, 
           influential personalities, and entrepreneurs 
