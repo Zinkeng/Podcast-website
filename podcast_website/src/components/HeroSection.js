@@ -4,7 +4,7 @@ import './HeroSection.css';
 import Anne from './images/Anne.jpg';
 import offer from './images/offer.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faInstagram, faXTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faInstagram, faXTwitter, faLinkedin, faGgCircle, faAccusoft } from '@fortawesome/free-brands-svg-icons';
 
 
 
@@ -58,11 +58,12 @@ function HeroSection() {
 
 
           <div className='wrapper-1'>
+          <h2 className='head2'> What we offer</h2>
 
           <img className='image-2' src={offer} alt="Video"/>
 
           <div className='left'>
-          <h2> What we offer</h2>
+          
           <p className='first-message-2'>"The Afro Diaspo Hustlers initiative is 
           dedicated to spotlighting the remarkable stories and  
           achievements of African professionals, 
@@ -78,13 +79,47 @@ function HeroSection() {
          
           </div>
 
-          <div className='left'>
-          <h2> What Our Viewers Say</h2>
-          <p className='first-message'>We bring you lots of inspirational videos from
-              renowned persons through out the world, 
-              insight life, daily life, motivational stories and a
-              lot more. Stay with us as you begin this journey 
-              of unending inspiration.</p>
+          <div >
+          <h2 className='left'> What Our Viewers Say</h2>
+          <div className='arrow'>
+          <FontAwesomeIcon icon={faGgCircle}  className='social-icon'/>
+          </div>
+          <div className='cards'>
+            <div className='card-1'>
+            <FontAwesomeIcon icon={faXTwitter}  className='social-icon'/>
+            <FontAwesomeIcon icon={faAccusoft}  className='social-icon'/>
+            <p>John Doe</p>
+            <p>We bring you lots of inspirational videos from
+               renowned persons through out the world, </p>
+               <p>24/12/2023</p>
+               <p>7:35 pm</p>
+               
+
+
+            </div>
+
+            <div className='card-2'>
+            <FontAwesomeIcon icon={faXTwitter}  className='social-icon'/>
+            <FontAwesomeIcon icon={faAccusoft}  className='social-icon'/>
+            <p>John Doe</p>
+            <p>We bring you lots of inspirational videos from
+               renowned persons through out the world, </p>
+               <p>24/12/2023</p>
+               <p>7:35 pm</p>
+
+            </div>
+            <div className='card-3'>
+            <FontAwesomeIcon icon={faXTwitter}  className='social-icon'/>
+            <FontAwesomeIcon icon={faAccusoft}  className='social-icon'/>
+            <p>John Doe</p>
+            <p>We bring you lots of inspirational videos from
+               renowned persons through out the world, </p>
+               <p>24/12/2023</p>
+               <p>7:35 pm</p>
+
+            </div>
+
+          </div>
            
           </div>
         </div>
