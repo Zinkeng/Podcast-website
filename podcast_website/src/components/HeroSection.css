@@ -174,15 +174,25 @@ h1{
     background-color: white;
     border-radius: 30px;
     margin: 30px;
-    text-align: justify;
+    width: 300px;
+     text-align: justify; 
+    justify-content: center;
 }
 
 .social-icon-1{
     color: #00FF57;
-    
-    margin-bottom: 0;
-    padding: ;
+    padding-left: 20px;
     font-size: 1rem;
 
 }
 
+.icon-2{
+    color: black;
+    
+
+}
+
+
+.profile{
+    text-align: center;
+}

@@ -6,10 +6,37 @@ import offer from './images/offer.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faXTwitter, faLinkedin, faGgCircle, faAccusoft } from '@fortawesome/free-brands-svg-icons';
 
+const styles = {
+  profile: {
+    backgroundColor: 'blue',
+    paddingBottom: '10px',
+    color: 'black',
+    textFont:'bold',
+    alignItems: 'centre'
+  },
+  heading: {
+    fontSize: '24px',
+    fontWeight: 'bold'
+  },
 
+  time:{
+    justifyContent:'end',
+    float: 'right',
+    color:'grey'
+  },
+
+  date:{
+    float:'left',
+    color:'grey'
+
+  }
+
+};
 
 function HeroSection() {
   return (
+
+    
     <div className='hero-container'>
         
         {/* <img src={podcast} alt="background image" /> */}
@@ -84,15 +111,21 @@ function HeroSection() {
           <div className='arrow'>
           <FontAwesomeIcon icon={faGgCircle}  className='social-icon'/>
           </div>
+
+          
           <div className='cards'>
             <div className='card-1'>
             <FontAwesomeIcon icon={faXTwitter}  className='social-icon-1'/>
-            <FontAwesomeIcon icon={faAccusoft}  className='social-icon'/>
+
+            <div  className='profile'>
+            <FontAwesomeIcon icon={faAccusoft}  className='icon-2'/>
             <p>John Doe</p>
+            </div>
+
             <p>We bring you lots of inspirational videos from
                renowned persons through out the world, </p>
-               <p>24/12/2023</p>
-               <p>7:35 pm</p>
+               <p style={styles.date}>24/12/2023</p>
+               <p style={styles.time} >7:35 pm</p>
                
 
 
