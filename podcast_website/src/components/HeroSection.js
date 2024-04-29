@@ -86,7 +86,7 @@ function HeroSection() {
           </div>
           <div className='cards'>
             <div className='card-1'>
-            <FontAwesomeIcon icon={faXTwitter}  className='social-icon'/>
+            <FontAwesomeIcon icon={faXTwitter}  className='social-icon-1'/>
             <FontAwesomeIcon icon={faAccusoft}  className='social-icon'/>
             <p>John Doe</p>
             <p>We bring you lots of inspirational videos from
